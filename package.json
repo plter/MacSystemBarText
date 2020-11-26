@@ -1,0 +1,29 @@
+{
+  "name": "set-system-bar-text",
+  "version": "1.0.0",
+  "description": "Set mac system bar text",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install_dependencies": "npm install --registry=https://registry.npm.taobao.org",
+    "build": "electron-builder --mac"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
